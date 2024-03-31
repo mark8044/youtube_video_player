@@ -18,7 +18,10 @@ dependencies:
   get: ^4.6.6
   http: ^1.1.0
   screen_brightness: ^0.2.2+1
-  subtitle: ^0.1.0
+  subtitle:
+      git:
+        url: https://github.com/therohansanap/subtitle
+        ref: enhancement/update-path-dependency-constraints
   video_player: ^2.8.1
   wakelock: ^0.6.2
   youtube_explode_dart: ^2.0.2
